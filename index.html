@@ -1,13 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Слайдер</title>
 </head>
 <body>
+<div class="slider">
+  <input class="input-radio" type="radio" name="slide" id="slide1" checked>
+  <input class="input-radio" type="radio" name="slide" id="slide2">
+  <input class="input-radio" type="radio" name="slide" id="slide3">
+  <input class="input-radio" type="radio" name="slide" id="slide4">
+  <div class="slides">
+    <div class="slide">
+      <img class="slide__img" src="./images/meme-1.jpg" alt="meme 1">
+    </div>
+    <div class="slide">
+      <img class="slide__img" src="./images/meme-2.jpg" alt="meme 2">
+    </div>
+    <div class="slide">
+      <img class="slide__img" src="./images/meme-3.jpg" alt="meme 3">
+    </div>
+    <div class="slide">
+      <img class="slide__img" src="./images/meme-4.jpg" alt="meme 4">
+    </div>
+  </div>
 
+  <div class="controls">
+    <label for="slide1" class="control"></label>
+    <label for="slide2" class="control"></label>
+    <label for="slide3" class="control"></label>
+    <label for="slide4" class="control"></label>
+  </div>
+
+  <div class="captions">
+    <div class="captions__wrapper">
+      <div class="caption">То что вы видите называется мем</div>
+      <div class="caption">Я только пришел на работу а уже устал</div>
+      <div class="caption">Ебучая действительность</div>
+      <div class="caption">То, что вы увидели называется мем</div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
